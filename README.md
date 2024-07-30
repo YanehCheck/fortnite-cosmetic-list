@@ -1,4 +1,4 @@
-# fortnite-cosmetic-list
+ # fortnite-cosmetic-list
 Scraped JSON list of all fortnite cosmetics and their properties from fortnite.gg.
 
 ## Object example
@@ -40,75 +40,77 @@ Empty or null values are ommited. Uses .NET's [UnsafeRelaxedJsonEscaping](https:
 #### PriceUsd (string)
 #### Season (string) - Cosmetic's release season, format: c[1-9]s([1-9]|X|OG)
 #### Source (enum)
-- Unknown = 0
-- Shop
-- Battle Pass
-- Crew
-- Challenges
-- Exclusives
-- Packs
+Unknown = 0
+Shop
+Battle Pass
+Crew
+Challenges
+Exclusives
+Packs
 #### SourceDescription (string) - Explanation on obtainability
 #### Rarity (enum)
-- Unknown = 0
-- Common
-- Uncommon
-- Rare
-- Epic
-- Legendary
-- McLaren
-- Lamborghini
-- Star Wars Series
-- Slurp Series
-- Shadow Series
-- Marvel Series
-- Lava Series
-- Icon Series
-- Gaming Legends Series
-- Frozen Series
-- DC Series
-- Dark Series
+Unknown = 0,
+Common,
+Uncommon,
+Rare,
+Epic,
+Legendary,
+StarWarsSeries,
+SlurpSeries,
+ShadowSeries,
+MarvelSeries,
+LavaSeries,
+IconSeries,
+GamingSeries,
+FrozenSeries,
+DcSeries,
+DarkSeries,
+McLaren,
+Nissan,
+Tesla,
+Lamborghini
 #### Type (enum)
-- Unknown = 0
-- Outfit
-- Backpack
-- Wrap
-- Pickaxe
-- Bundle
-- Emote
-- Glider
-- Loading Screen
-- Music
-- Contrail
-- Spray
-- Emoji
-- Toy
-- Banner
-- Build
-- Decor
-- Car
-- Decal
-- Wheels
-- Trail
-- Boost
-- Jamtrack
-- Guitar
-- Bass
-- Drums
-- Keytar
-- Microphone
-- Aura
+Unknown = 0
+Outfit
+Backpack
+Wrap
+Pickaxe
+Bundle
+Emote
+Glider
+Loading Screen
+Music
+Contrail
+Spray
+Emoji
+Toy
+Banner
+Build
+Decor
+Car
+Decal
+Wheels
+Trail
+Boost
+Jamtrack
+Guitar
+Bass
+Drums
+Keytar
+Microphone
+Aura
 #### Set (string)
 #### Release (DateTime)
 #### LastSeen (DateTime)
 #### Styles (string[]) - Just a list of all (=listed on fortnite.gg) style names
 #### Tags (enum[])
-- Forged = 0
-- Styles         // (Selectable Styles || Unlockable Styles)
-- Reactive
-- Traversal
-- Built-in
-- Synced
-- Animated
-- Transformation
-- Enlightened
+Forged = 0
+Styles         // (Selectable Styles || Unlockable Styles)
+Reactive
+Traversal
+Built-in
+Synced
+Animated
+Transformation
+Enlightened
 ```
