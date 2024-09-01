@@ -28,7 +28,7 @@ Scraped JSON list of all fortnite cosmetics and their properties from fortnite.g
 }
 ```
 
-Empty or null values are ommited. Uses .NET's [UnsafeRelaxedJsonEscaping](https://learn.microsoft.com/en-us/dotnet/api/system.text.encodings.web.javascriptencoder.unsaferelaxedjsonescaping?view=net-8.0#system-text-encodings-web-javascriptencoder-unsaferelaxedjsonescaping).
+Empty or null values are ommited. Uses default JSON.net escaping.
 
 ## Properties
 ```
@@ -68,7 +68,8 @@ DarkSeries,
 McLaren,
 Nissan,
 Tesla,
-Lamborghini
+Lamborghini,
+Bmw
 #### Type (enum)
 Unknown = 0
 Outfit
